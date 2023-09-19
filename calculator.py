@@ -1,3 +1,18 @@
+def add(x, y):
+    return x + y
+
+
+def sub(x, y):
+    return x - y
+
+
+def mul(x, y):
+    return x * y
+
+
+def div(x, y):
+    return x / y
+
 def calculator() :
     opening = "Welcome to the calculator"
     print(opening.title())
@@ -13,28 +28,8 @@ def calculator() :
     if operation > 4 or operation < 1 :
         print("number invalid")
         return
-    num1 = int(input('enter number 1 :'))
-    num2 = int(input('enter number 2 :'))
-
-
-    def add(x,y) :
-        total1 = x + y
-        return total1
-
-
-    def sub(x,y) :
-        total2 = x - y
-        return total2
-
-
-    def mul(x,y) :
-        total3 = x * y
-        return total3
-
-
-    def div(x,y) :
-        total4 = x / y
-        return total4
+    num1 = int(input("enter number 1 :"))
+    num2 = int(input("enter number 2 :"))
 
 
     if operation == 1 :
